@@ -1,4 +1,28 @@
 
+/**
+ * This file will contain the logic for the
+ * registration of the user and login of the user
+ * 
+ * User :
+ * 
+ * Customer
+ *    1. Registers and is approved by default
+ *    2. Should be able to login immediately
+ *
+ */
+ 
+//  * Engineer 
+//  *    1. Should be able to registered
+//  *    2. Initially he/she will be in PENDING state
+//  *    3. ADMIN should be able to approve this
+//  * 
+//  * 
+//  * Admin
+//  *    1. ADMIN user should be only created from the backend...No API should be supported
+//  * for it
+//  
+
+
 const bcrypt = require("bcryptjs");
 const User = require("../models/user.model");
 const jwt = require("jsonwebtoken");
