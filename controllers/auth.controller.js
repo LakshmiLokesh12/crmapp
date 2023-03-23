@@ -20,7 +20,7 @@
 //  * Admin
 //  *    1. ADMIN user should be only created from the backend...No API should be supported
 //  * for it
-//  
+ 
 
 
 const bcrypt = require("bcryptjs");
